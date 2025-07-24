@@ -101,3 +101,55 @@ body {
   color: var(--paragraph-color);
   margin-top: 13px;
 }
+/* Start The Plant Section */
+.plant {
+  padding: 60px 0px 100px 0px;
+  text-align: center;
+}
+.plant h3 {
+  font-size: 50px;
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+.plant span {
+  color: var(--primary-color);
+}
+.plant p {
+  color: var(--paragraph-color);
+  font-size: 22px;
+  padding: 16px 126px 0px 126px;
+}
+.plant h3 span {
+  margin-right: 6px;
+}
+.plant-card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding-top: 50px;
+}
+.plant-card h4 {
+  color: var(--dark-color);
+  font-size: 22px;
+  font-weight: 600;
+  padding-top: 30px;
+}
+.plant-card h5 {
+  color: var(--dark-color);
+  font-size: 22px;
+  font-weight: bold;
+  padding: 15px 0px;
+}
+.plant-card .btn {
+  display: block;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  font-size: 16px;
+  font-weight: 700;
+  width: 100%;
+  padding: 19px 0px;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+}
+/* End The Plant Section */

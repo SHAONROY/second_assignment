@@ -24,4 +24,32 @@
   .banner-text {
     padding: 28px 15px 0px 15px;
   }
+  .banner-text h3 {
+    font-size: 24px;
+  }
+  .banner-text p {
+    font-size: 14px;
+  }
+  /* End The Banner Css */
+  /* Start The Plant Css */
+  .plant h3 {
+    font-size: 24px;
+  }
+  .plant p {
+    font-size: 14px;
+  }
+
+  .plant-container p {
+    padding: 0px 30px;
+  }
+  .plant-card-container {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 28px 15px 0px 15px;
+  }
+  .plant-card h4,
+  .plant-card h5,
+  .plant-card .btn {
+    font-size: 16px;
+  }
+  /* End The Plant Css */
 }
