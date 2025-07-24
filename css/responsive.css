@@ -13,4 +13,15 @@
     padding: 0px 15px;
   }
   /* End Navbar Css  */
+  /* Start The Banner Css */
+  .banner-container {
+    flex-direction: column-reverse;
+  }
+  .banner-text,
+  .banner-image {
+    max-width: 100%;
+  }
+  .banner-text {
+    padding: 28px 15px 0px 15px;
+  }
 }

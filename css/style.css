@@ -28,6 +28,7 @@
   --secondary-color: #000000;
   --white-color: #ffffff;
   --dark-color: #111111;
+  --paragraph-color: rgba(0, 0, 0, 0.5);
 }
 /* Common Css */
 li {
@@ -74,4 +75,29 @@ body {
   color: #252432;
   font-weight: bold;
 }
-/* Start The Navbar Section */
+/* End The Navbar Section */
+/* Start The Banner Section */
+.banner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding-bottom: 60px;
+  padding-top: 120px;
+}
+.banner-text,
+.banner-image {
+  max-width: 50%;
+}
+.banner-text h3 {
+  font-size: 65px;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+.banner-text h3 span {
+  color: var(--secondary-color);
+}
+.banner-text p {
+  font-size: 22px;
+  color: var(--paragraph-color);
+  margin-top: 13px;
+}
