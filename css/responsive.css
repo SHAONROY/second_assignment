@@ -51,5 +51,36 @@
   .plant-card .btn {
     font-size: 16px;
   }
+  .plant {
+    padding: 60px 0px 0px 0px;
+  }
   /* End The Plant Css */
+  /* Start The Plant  lover Css */
+  .plant-lover-container {
+    flex-direction: column;
+    padding: 28px 15px 0px 15px;
+    gap: 0px;
+  }
+  .plant-image,
+  .plant-text {
+    max-width: 100%;
+  }
+  .plant-lover {
+    padding: 0px;
+  }
+  .plant-lover-title {
+    padding-top: 20px;
+  }
+  .plant-image .trusted-badge {
+    display: none;
+  }
+  .plant-text h3 {
+    font-size: 24px;
+  }
+  .plant-text ul li {
+    font-size: 14px;
+    margin-left: 20px;
+  }
+
+  /* Start The Plant  lover Css */
 }
