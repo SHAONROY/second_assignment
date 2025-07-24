@@ -83,4 +83,21 @@
   }
 
   /* Start The Plant  lover Css */
+  /* Start The Join Section */
+  .join {
+    padding: 70px 10px;
+  }
+  .join-container h3 {
+    font-size: 20px;
+  }
+  .join-container input[type="email"] {
+    width: 170px;
+    padding: 15px 20px;
+    outline: none;
+    border: none;
+  }
+  .join-container .button {
+    padding: 13px 20px;
+  }
+  /* End The Join Section */
 }

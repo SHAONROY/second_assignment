@@ -176,7 +176,7 @@ body {
   list-style: disc;
   font-size: 22px;
   color: var(--paragraph-color);
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 .plant-image {
   position: relative;
@@ -189,3 +189,38 @@ body {
   filter: drop-shadow(-4px 10px 4px rgba(0, 0, 0, 0.25));
 }
 /* End The Plant lover Section */
+/* Start The Join Section */
+.join {
+  background-image: url(../assets/news-letter-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 200px;
+}
+.join-container h3 {
+  font-size: 50px;
+  font-weight: bold;
+  color: var(--white-color);
+  margin-bottom: 23px;
+}
+.join-container input[type="email"] {
+  width: 640px;
+  padding: 15px 20px;
+  outline: none;
+  border: none;
+}
+.join-container input::placeholder {
+  font-size: 16px;
+  color: var(--paragraph-color);
+}
+.join-container .button {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  padding: 13px 50px;
+  margin-left: -4px;
+}
+/* End The Join Section */
