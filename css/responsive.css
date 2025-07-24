@@ -1,0 +1,16 @@
+@media screen and (max-width: 576px) {
+  /* start Navbar Css  */
+  .navbar-menu ul li:nth-child(1) {
+    display: none;
+  }
+  .navbar-menu ul li:nth-child(2) {
+    display: none;
+  }
+  .navbar-menu ul li:nth-child(3) {
+    display: none;
+  }
+  .navbar-container {
+    padding: 0px 15px;
+  }
+  /* End Navbar Css  */
+}
