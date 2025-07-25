@@ -34,9 +34,9 @@
 li {
   list-style: none;
 }
-/* a {
+a {
   text-decoration: none;
-} */
+}
 img {
   max-width: 100%;
 }
@@ -53,6 +53,7 @@ body {
   justify-content: space-between;
   margin-top: 30px;
 }
+
 .navbar-menu ul {
   display: flex;
   padding: 22px;
@@ -193,7 +194,9 @@ body {
 .latest-deal {
   padding: 60px 0px 100px 0px;
   text-align: center;
+  overflow: hidden;
 }
+
 .latest-deal h3 {
   font-size: 50px;
   font-weight: bold;
@@ -270,6 +273,10 @@ body {
 .deal-card-items:first-child {
   margin-bottom: 20px;
 }
+.deal-item-2 a,
+.deal-card-items a {
+  text-decoration: underline;
+}
 /* Start The Least Deal Section */
 /* Start The Join Section */
 .join {
@@ -277,7 +284,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
-  padding: 200px;
+  padding: 200px 0px;
 }
 .join-container h3 {
   font-size: 50px;
@@ -302,8 +309,7 @@ body {
   font-weight: 700;
   border: none;
   outline: none;
-  padding: 13px 50px;
-  margin-left: -4px;
+  padding: 15px 50px;
 }
 /* End The Join Section */
 /* Start The Footer Section */

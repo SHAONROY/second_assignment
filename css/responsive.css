@@ -153,3 +153,68 @@
   }
   /* End The latest Deal Section */
 }
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .navbar-menu ul {
+    padding: 22px;
+    gap: 20px;
+  }
+  .plant-card-container {
+    margin: 0px 15px;
+  }
+  .plant-lover-container {
+    flex-direction: column;
+    margin: 0px 15px;
+  }
+  .plant-image,
+  .plant-text {
+    max-width: 100%;
+  }
+  .plant-image .trusted-badge {
+    display: none;
+  }
+  .plant-text ul li {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  .plant-lover {
+    padding: 50px 0px;
+  }
+  .deal-card {
+    flex-direction: column;
+  }
+  .deal-item-1,
+  .deal-item-2 {
+    width: 100%;
+  }
+  .deal-item-2 {
+    padding: 67px 0px;
+    margin-top: 10px;
+  }
+  .deal-item-2 h4,
+  .deal-item-2 a {
+    font-size: 20px;
+  }
+  .deal-card {
+    margin: 0px 15px;
+  }
+  .join-container input[type="email"] {
+    width: 347px;
+  }
+  .footer-image img {
+    padding-right: 10px;
+  }
+  .footer-section p {
+    font-size: 16px;
+    color: var(--paragraph-color);
+  }
+  .banner-container {
+    flex-direction: column-reverse;
+  }
+  .banner-text,
+  .banner-image {
+    max-width: 100%;
+  }
+  .banner-text {
+    margin: 0px 15px;
+  }
+}
